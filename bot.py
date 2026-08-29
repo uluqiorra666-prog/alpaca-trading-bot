@@ -7,8 +7,7 @@ from alpaca.data.historical import StockHistoricalDataClient
 from alpaca.data.requests import StockSnapshotRequest
 
 # Load keys safely from cloud environment variables
-API_KEY = os.environ.get("PKYKCQOK5SHSZO365FNZWBVE3K
-")
+API_KEY = os.environ.get("PKYKCQOK5SHSZO365FNZWBVE3K")
 SECRET_KEY = os.environ.get("2M26NEWpkHFq6Q3GB26uuDzvawhECVaUXPVNHxvnGFik")
 SYMBOL = "SPY"
 TRADE_ALLOCATION = 250.0
