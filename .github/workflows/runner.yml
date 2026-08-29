@@ -2,7 +2,6 @@ name: Alpaca Trading Bot Runner
 
 on:
   schedule:
-    # Runs every 30 minutes Monday through Friday during US trading hours
     - cron: '30 13-20 * * 1-5'
   workflow_dispatch:
 
