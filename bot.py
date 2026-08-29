@@ -1,3 +1,4 @@
+
 import os
 import time
 from alpaca.trading.client import TradingClient
@@ -12,9 +13,9 @@ SECRET_KEY = os.environ.get("ALPACA_SECRET_KEY") or "2M26NEWpkHFq6Q3GB26uuDzvawh
 
 SYMBOL = "SPY"
 # RISK CONTROLS:
-POSITION_RISK_PCT = 0.20  # Allocate max 20% of account per trade instead of going all-in
+POSITION_RISK_PCT = 0.20  # Max 20% account allocation per trade
 MAX_SPREAD = 0.02         # Filter out wide spreads to reduce slippage
-TRAILING_STOP_PCT = 2.0   # Expanded from 1% to 2% to absorb normal market noise
+TRAILING_STOP_PCT = 1.0   # 1.0% Trailing Stop
 
 trading_client = TradingClient(API_KEY, SECRET_KEY, paper=True)
 data_client = StockHistoricalDataClient(API_KEY, SECRET_KEY)
@@ -40,9 +41,9 @@ while time.time() - start_time < 1800:
             current_price = float(pos.current_price)
             avg_entry = float(pos.avg_entry_price)
 
-            # Hard Emergency Liquidation Stop (-3%)
-            if current_price < (avg_entry * 0.97):
-                print("EMERGENCY CONTINGENCY: Liquidating position!")
+            # Hard Emergency Stop Loss (-1.0%)
+            if current_price <= (avg_entry * 0.99):
+                print("EMERGENCY CONTINGENCY: -1.0% Stop Loss triggered! Liquidating position...")
                 trading_client.close_all_positions(cancel_orders=True)
 
             time.sleep(5)
@@ -61,7 +62,7 @@ while time.time() - start_time < 1800:
             if ask_gemini_greenlight(SYMBOL, spread):
                 print("Gemini Greenlight Confirmed. Calculating Position & Executing...")
 
-                # Dynamic sizing: 20% of account equity instead of going 100% all-in
+                # Dynamic sizing: 20% of account equity
                 account = trading_client.get_account()
                 equity = float(account.equity)
                 trade_allocation = equity * POSITION_RISK_PCT
@@ -83,7 +84,7 @@ while time.time() - start_time < 1800:
                 trading_client.submit_order(entry_req)
                 time.sleep(3)
 
-                # Deploy 2.0% trailing stop to tolerate micro-swings
+                # Deploy 1.0% trailing stop
                 trail_req = TrailingStopOrderRequest(
                     symbol=SYMBOL,
                     qty=qty_to_buy,
