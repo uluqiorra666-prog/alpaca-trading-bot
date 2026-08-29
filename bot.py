@@ -7,8 +7,8 @@ from alpaca.data.historical import StockHistoricalDataClient
 from alpaca.data.requests import StockSnapshotRequest
 
 # PASTE YOUR KEYS HERE (Inside the quotes):
-API_KEY = os.environ.get("ALPACA_API_KEY") or "PASTE_YOUR_ALPACA_API_KEY_HERE"
-SECRET_KEY = os.environ.get("ALPACA_SECRET_KEY") or "PASTE_YOUR_ALPACA_SECRET_KEY_HERE"
+API_KEY = os.environ.get("ALPACA_API_KEY") or "PKYKCQOK5SHSZO365FNZWBVE3K"
+SECRET_KEY = os.environ.get("ALPACA_SECRET_KEY") or "2M26NEWpkHFq6Q3GB26uuDzvawhECVaUXPVNHxvnGFik"
 
 SYMBOL = "SPY"
 # RISK CONTROLS:
