@@ -8,10 +8,12 @@ from alpaca.data.historical import StockHistoricalDataClient
 from alpaca.data.requests import StockSnapshotRequest, StockBarsRequest
 from alpaca.data.timeframe import TimeFrame
 
-# API Credentials
-API_KEY = os.environ.get("ALPACA_API_KEY", "PKYKCQOK5SHSZO365FNZWBVE3K
-")
+# API Credentials fetched securely from GitHub Repository Secrets
+API_KEY = os.environ.get("ALPACA_API_KEY", "PKYKCQOK5SHSZO365FNZWBVE3K")
 SECRET_KEY = os.environ.get("ALPACA_SECRET_KEY", "2M26NEWpkHFq6Q3GB26uuDzvawhECVaUXPVNHxvnGFik")
+
+if not API_KEY or not SECRET_KEY:
+    raise ValueError("Missing ALPACA_API_KEY or ALPACA_SECRET_KEY environment variables.")
 
 # Account Allocation & Strategy Constants
 BUCKET_ALLOCATION_PCT = 0.50   # Allocates 50% of total equity per bucket ($250 on a $500 balance, auto-compounding)
