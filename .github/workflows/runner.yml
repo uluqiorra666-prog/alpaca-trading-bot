@@ -1,7 +1,8 @@
-name: Alpaca Trading Bot Runner
+name: Autonomous Trading Bot Runner
 
 on:
   schedule:
+    # Runs automatically every 30 minutes during US market hours (13:30 - 20:00 UTC, Mon-Fri)
     - cron: '30 13-20 * * 1-5'
   workflow_dispatch:
 
@@ -9,7 +10,7 @@ jobs:
   run-bot:
     runs-on: ubuntu-latest
     steps:
-      - name: Check out repository
+      - name: Checkout Repository
         uses: actions/checkout@v4
 
       - name: Set up Python
@@ -19,11 +20,11 @@ jobs:
 
       - name: Install Dependencies
         run: |
-          pip install -r requirements.txt
+          python -m pip install --upgrade pip
+          pip install alpaca-py pandas
 
-      - name: Run Bot Loop
+      - name: Run Autonomous Bot
         env:
           ALPACA_API_KEY: ${{ secrets.ALPACA_API_KEY }}
           ALPACA_SECRET_KEY: ${{ secrets.ALPACA_SECRET_KEY }}
-        run: |
-          python bot.py
+        run: python bot.py
