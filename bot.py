@@ -63,9 +63,9 @@ class C:
     MEMORY_PATH = "state/memory.json"
 
 
-ALPACA_KEY = os.environ.get("ALPACA_API_KEY", "")
-ALPACA_SECRET = os.environ.get("ALPACA_SECRET_KEY", "")
-GEMINI_KEY = os.environ.get("GEMINI_API_KEY", "")
+ALPACA_KEY = os.environ.get("ALPACA_API_KEY", "").strip()
+ALPACA_SECRET = os.environ.get("ALPACA_SECRET_KEY", "").strip()
+GEMINI_KEY = os.environ.get("GEMINI_API_KEY", "").strip()
 
 logging.basicConfig(level=logging.INFO, stream=sys.stdout,
                     format="%(asctime)s | %(levelname)s | %(message)s")
