@@ -359,7 +359,7 @@ def evaluate(mem, md, sym):
     if not price > sma9: fails.append(f"price {price:.2f} <= SMA9 {sma9:.2f}")
     if not cur_v > avgv * C.VOLUME_SURGE_RATIO: fails.append(f"volume {cur_v:.0f} <= {C.VOLUME_SURGE_RATIO}x avg {avgv:.0f}")
     if not expansion >= C.PRICE_EXPANSION_MIN: fails.append(f"expansion {expansion*100:.2f}% too small")
-    if not (ask > 0 and spread <= C.MAX_SPREAD): fails.append(f"spread ${spread:.3f} too wide / no quote")
+    if not (ask > 0 and spread / ask <= C.MAX_SPREAD_PCT): fails.append(f"spread {spread/ask*100 if ask else 0:.2f}% too wide / no quote")
     if not avgv >= C.MIN_AVG_MINUTE_VOLUME: fails.append(f"avg volume {avgv:.0f} too low")
     if fails:
         log.info(f"[{sym}] skip: " + "; ".join(fails))
