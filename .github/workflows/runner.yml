@@ -2,26 +2,31 @@ name: Semi-Live AI Trading Bot
 
 on:
   schedule:
-    # Triggers every 30 minutes during standard US market hours
-    - cron: '30 13-20 * * 1-5'
+    # every 5 min, 13:00-21:59 UTC = covers US market hours in summer AND winter time
+    - cron: '*/5 13-21 * * 1-5'
   workflow_dispatch:
+
+permissions:
+  contents: write        # needed so the bot can commit state/memory.json
+
+concurrency:
+  group: trading-bot     # never two runs at the same time
+  cancel-in-progress: false
 
 jobs:
   run-bot:
     runs-on: ubuntu-latest
+    timeout-minutes: 5
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - uses: actions/setup-python@v5
         with:
-          python-version: '3.10'
+          python-version: '3.12'
+          cache: 'pip'
 
-      - name: Install Dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install alpaca-py pandas google-genai
+      - name: Install dependencies
+        run: pip install -r requirements.txt
 
       - name: Run AI Bot Execution
         env:
@@ -29,3 +34,10 @@ jobs:
           ALPACA_SECRET_KEY: ${{ secrets.ALPACA_SECRET_KEY }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python bot.py
+
+      - name: Save memory (external memory commit)
+        if: always()
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "bot: update state [skip ci]"
+          file_pattern: state/memory.json
