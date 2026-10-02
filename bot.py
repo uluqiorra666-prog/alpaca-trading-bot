@@ -581,7 +581,8 @@ def run():
         log.info(f"Run start | {now:%a %H:%M} ET | paper={C.PAPER_TRADING}")
 
         # Daily pre-market watchlist
-        if now.weekday() < 5 and s["watchlist_built_date"] != s["date"]:
+        if now.weekday() < 5 and (s["watchlist_built_date"] != s["date"]
+                                  or not mem["watchlist"]["symbols"]):
             build_watchlist(mem, md)
 
         if not market_open_now(now):
