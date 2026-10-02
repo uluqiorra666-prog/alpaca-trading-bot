@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "last_updated": "2026-10-02T15:37:38.703955+00:00",
+  "account": {
+    "equity_at_open": null
+  },
+  "session": {
+    "date": "2026-10-02",
+    "run_count_today": 1,
+    "gemini_failures_today": 1,
+    "gemini_fallback_active": false,
+    "consecutive_errors": 1,
+    "trades_today": 0,
+    "trading_paused_until": null,
+    "last_run": "2026-10-02T15:37:38.703946+00:00",
+    "watchlist_built_date": "2026-10-02"
+  },
+  "position": null,
+  "daily_stats": {
+    "realized_pl": 0.0,
+    "history": []
+  },
+  "watchlist": {
+    "symbols": [],
+    "blacklisted": [],
+    "performance": {}
+  },
+  "gemini_memory": {
+    "last_queries": [],
+    "market_context_summary": "",
+    "strategic_recommendation": "",
+    "sentiment_history": []
+  },
+  "errors": [
+    {
+      "time": "2026-10-02T15:37:38.703904+00:00",
+      "error": "Invalid leading whitespace, reserved character(s), or return character(s) in header value: 'PKGOWIX6N6KGBKVYOCHNZVVAGF\\n'"
+    }
+  ],
+  "trade_log": []
+}
