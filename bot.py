@@ -33,8 +33,8 @@ class C:
     TIME_EXIT_MIN_PL = -0.003
     TIME_EXIT_MAX_PL = 0.005
 
-    MAX_SPREAD = 0.04               # dollars
-    MIN_AVG_MINUTE_VOLUME = 5_000   # IEX feed only sees a slice of volume; raise if you get SIP
+    MAX_SPREAD_PCT = 0.003          # 0.3% of price
+    MIN_AVG_MINUTE_VOLUME = 500   # IEX feed only sees a slice of volume; raise if you get SIP
     MIN_ATR_PCT = 0.05
     IDEAL_ATR_PCT = 0.07
     SMA_FAST, SMA_SLOW = 9, 20
