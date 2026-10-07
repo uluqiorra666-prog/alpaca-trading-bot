@@ -1,19 +1,19 @@
 {
   "version": 1,
-  "last_updated": "2026-10-06T22:48:56.564701+00:00",
+  "last_updated": "2026-10-07T19:11:36.371831+00:00",
   "account": {
     "equity_at_open": 99976.58
   },
   "session": {
-    "date": "2026-10-06",
-    "run_count_today": 2,
+    "date": "2026-10-07",
+    "run_count_today": 1,
     "gemini_failures_today": 1,
     "gemini_fallback_active": false,
     "consecutive_errors": 0,
     "trades_today": 0,
     "trading_paused_until": null,
-    "last_run": "2026-10-06T22:48:56.564689+00:00",
-    "watchlist_built_date": "2026-10-06"
+    "last_run": "2026-10-07T19:11:36.371808+00:00",
+    "watchlist_built_date": "2026-10-07"
   },
   "position": null,
   "daily_stats": {
@@ -28,6 +28,11 @@
         "date": "2026-10-05",
         "realized_pl": 0.0,
         "trades": 0
+      },
+      {
+        "date": "2026-10-06",
+        "realized_pl": 0.0,
+        "trades": 0
       }
     ]
   },
@@ -35,66 +40,66 @@
     "symbols": [
       "MARA",
       "RIOT",
-      "LABU",
       "SOXL",
+      "LABU",
       "CLSK",
       "NUGT",
-      "TSLL",
-      "COIN",
       "BITX",
+      "COIN",
+      "TSLL",
       "HOOD",
       "NVDL",
-      "AFRM"
+      "TNA"
     ],
     "blacklisted": [],
     "performance": {
       "MARA": {
-        "atr_pct": 0.0724,
-        "avg_vol": 1194455
+        "atr_pct": 0.0763,
+        "avg_vol": 1170003
       },
       "RIOT": {
-        "atr_pct": 0.0714,
-        "avg_vol": 1024987
-      },
-      "LABU": {
-        "atr_pct": 0.0858,
-        "avg_vol": 9520
+        "atr_pct": 0.0721,
+        "avg_vol": 1010222
       },
       "SOXL": {
-        "atr_pct": 0.068,
-        "avg_vol": 808210
+        "atr_pct": 0.0734,
+        "avg_vol": 696397
+      },
+      "LABU": {
+        "atr_pct": 0.0804,
+        "avg_vol": 9418
       },
       "CLSK": {
-        "atr_pct": 0.0647,
-        "avg_vol": 748890
+        "atr_pct": 0.0686,
+        "avg_vol": 750026
       },
       "NUGT": {
-        "atr_pct": 0.0604,
-        "avg_vol": 9421
-      },
-      "TSLL": {
-        "atr_pct": 0.0586,
-        "avg_vol": 5255298
-      },
-      "COIN": {
-        "atr_pct": 0.0563,
-        "avg_vol": 257380
+        "atr_pct": 0.0637,
+        "avg_vol": 9498
       },
       "BITX": {
-        "atr_pct": 0.0535,
-        "avg_vol": 316064
+        "atr_pct": 0.06,
+        "avg_vol": 336862
+      },
+      "COIN": {
+        "atr_pct": 0.0587,
+        "avg_vol": 258294
+      },
+      "TSLL": {
+        "atr_pct": 0.0564,
+        "avg_vol": 5393898
       },
       "HOOD": {
-        "atr_pct": 0.0492,
-        "avg_vol": 545815
+        "atr_pct": 0.0495,
+        "avg_vol": 537374
       },
       "NVDL": {
-        "atr_pct": 0.0409,
-        "avg_vol": 174686
+        "atr_pct": 0.0405,
+        "avg_vol": 170285
       },
-      "AFRM": {
-        "atr_pct": 0.0408,
-        "avg_vol": 187154
+      "TNA": {
+        "atr_pct": 0.0396,
+        "avg_vol": 59516
       }
     }
   },
@@ -109,6 +114,11 @@
         "time": "2026-10-06T18:45:10.106740+00:00",
         "label": "periodic_update",
         "reply": "CONTEXT: With zero open positions heading into the final hour of trading, late-session momentum and closing imbalances will dictate high-beta equity flows. The crypto-heavy and leveraged tech watchlist presents elevated volatility suitable only for fast intraday plays.\n\nADVICE: Limit activity to hig"
+      },
+      {
+        "time": "2026-10-07T19:11:19.334645+00:00",
+        "label": "watchlist_add",
+        "reply": "NVDA, COIN, SOXL"
       }
     ],
     "market_context_summary": "With zero open positions heading into the final hour of trading, late-session momentum and closing imbalances will dictate high-beta equity flows. The crypto-heavy and leveraged tech watchlist presents elevated volatility suitable only for fast intraday plays.",
