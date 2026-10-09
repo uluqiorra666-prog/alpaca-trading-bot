@@ -1,19 +1,19 @@
 {
   "version": 1,
-  "last_updated": "2026-10-08T23:43:59.722130+00:00",
+  "last_updated": "2026-10-09T18:38:29.026529+00:00",
   "account": {
     "equity_at_open": 99976.58
   },
   "session": {
-    "date": "2026-10-08",
-    "run_count_today": 2,
-    "gemini_failures_today": 1,
+    "date": "2026-10-09",
+    "run_count_today": 1,
+    "gemini_failures_today": 0,
     "gemini_fallback_active": false,
     "consecutive_errors": 0,
     "trades_today": 0,
     "trading_paused_until": null,
-    "last_run": "2026-10-08T23:43:59.722116+00:00",
-    "watchlist_built_date": "2026-10-08"
+    "last_run": "2026-10-09T18:38:29.026520+00:00",
+    "watchlist_built_date": "2026-10-09"
   },
   "position": null,
   "daily_stats": {
@@ -38,6 +38,11 @@
         "date": "2026-10-07",
         "realized_pl": 0.0,
         "trades": 0
+      },
+      {
+        "date": "2026-10-08",
+        "realized_pl": 0.0,
+        "trades": 0
       }
     ]
   },
@@ -49,62 +54,62 @@
       "CLSK",
       "LABU",
       "NUGT",
-      "BITX",
       "TSLL",
+      "BITX",
       "COIN",
-      "HOOD",
+      "MSTR",
       "NVDL",
-      "FNGU"
+      "HOOD"
     ],
     "blacklisted": [],
     "performance": {
       "MARA": {
-        "atr_pct": 0.0725,
-        "avg_vol": 1136382
+        "atr_pct": 0.0736,
+        "avg_vol": 1125643
       },
       "RIOT": {
-        "atr_pct": 0.0778,
-        "avg_vol": 1000886
+        "atr_pct": 0.0756,
+        "avg_vol": 954202
       },
       "SOXL": {
-        "atr_pct": 0.0885,
-        "avg_vol": 755504
+        "atr_pct": 0.0837,
+        "avg_vol": 721858
       },
       "CLSK": {
-        "atr_pct": 0.0749,
-        "avg_vol": 752292
+        "atr_pct": 0.0739,
+        "avg_vol": 717108
       },
       "LABU": {
-        "atr_pct": 0.0864,
-        "avg_vol": 9021
+        "atr_pct": 0.0812,
+        "avg_vol": 10079
       },
       "NUGT": {
-        "atr_pct": 0.0624,
-        "avg_vol": 9730
-      },
-      "BITX": {
-        "atr_pct": 0.06,
-        "avg_vol": 332110
+        "atr_pct": 0.0596,
+        "avg_vol": 9020
       },
       "TSLL": {
-        "atr_pct": 0.0581,
-        "avg_vol": 5381607
+        "atr_pct": 0.0544,
+        "avg_vol": 5390670
+      },
+      "BITX": {
+        "atr_pct": 0.0517,
+        "avg_vol": 331918
       },
       "COIN": {
-        "atr_pct": 0.0541,
-        "avg_vol": 237496
+        "atr_pct": 0.0512,
+        "avg_vol": 215782
       },
-      "HOOD": {
-        "atr_pct": 0.0462,
-        "avg_vol": 548386
+      "MSTR": {
+        "atr_pct": 0.0512,
+        "avg_vol": 396757
       },
       "NVDL": {
-        "atr_pct": 0.0451,
-        "avg_vol": 169241
+        "atr_pct": 0.0443,
+        "avg_vol": 159417
       },
-      "FNGU": {
-        "atr_pct": 0.0423,
-        "avg_vol": 101687
+      "HOOD": {
+        "atr_pct": 0.0434,
+        "avg_vol": 532237
       }
     }
   },
@@ -129,10 +134,20 @@
         "time": "2026-10-08T19:07:46.197797+00:00",
         "label": "periodic_update",
         "reply": "CONTEXT: Entering the final hour flat, late-session flows and closing imbalances will drive sharp, short-lived moves across high-beta tech and crypto proxies. Diminishing time to the closing bell significantly compresses the risk-reward profile for new directional setups.\n\nADVICE: Refrain from forci"
+      },
+      {
+        "time": "2026-10-09T18:37:59.538605+00:00",
+        "label": "watchlist_add",
+        "reply": "NVDA, MSTR, COIN"
+      },
+      {
+        "time": "2026-10-09T18:38:29.026137+00:00",
+        "label": "periodic_update",
+        "reply": "CONTEXT: With less than 90 minutes remaining in the session, market action is increasingly driven by choppy institutional rebalancing and closing imbalances. Diminishing time to the bell severely limits favorable risk-reward windows across high-beta tech and crypto proxies. \n\nADVICE: Maintain discip"
       }
     ],
-    "market_context_summary": "Entering the final hour flat, late-session flows and closing imbalances will drive sharp, short-lived moves across high-beta tech and crypto proxies. Diminishing time to the closing bell significantly compresses the risk-reward profile for new directional setups.",
-    "strategic_recommendation": "Refrain from forcing late-day trades and restrict participation to rapid momentum scalps with strict risk limits, ensuring all positions are completely flat well before 16:00 ET.",
+    "market_context_summary": "With less than 90 minutes remaining in the session, market action is increasingly driven by choppy institutional rebalancing and closing imbalances. Diminishing time to the bell severely limits favorable risk-reward windows across high-beta tech and crypto proxies.",
+    "strategic_recommendation": "Maintain disciplined capital preservation by staying completely flat into the weekend, avoiding late-day chop and overnight exposure entirely.",
     "sentiment_history": []
   },
   "errors": [
