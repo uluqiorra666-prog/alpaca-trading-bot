@@ -1,19 +1,19 @@
 {
   "version": 1,
-  "last_updated": "2026-10-13T02:42:04.603474+00:00",
+  "last_updated": "2026-10-13T19:43:24.072504+00:00",
   "account": {
-    "equity_at_open": null
+    "equity_at_open": 99976.58
   },
   "session": {
-    "date": "2026-10-12",
-    "run_count_today": 2,
-    "gemini_failures_today": 0,
+    "date": "2026-10-13",
+    "run_count_today": 1,
+    "gemini_failures_today": 2,
     "gemini_fallback_active": false,
     "consecutive_errors": 0,
     "trades_today": 0,
     "trading_paused_until": null,
-    "last_run": "2026-10-13T02:42:04.603460+00:00",
-    "watchlist_built_date": "2026-10-12"
+    "last_run": "2026-10-13T19:43:24.072484+00:00",
+    "watchlist_built_date": "2026-10-13"
   },
   "position": null,
   "daily_stats": {
@@ -48,73 +48,78 @@
         "date": "2026-10-09",
         "realized_pl": 0.0,
         "trades": 0
+      },
+      {
+        "date": "2026-10-12",
+        "realized_pl": 0.0,
+        "trades": 0
       }
     ]
   },
   "watchlist": {
     "symbols": [
+      "MARA",
       "RIOT",
       "SOXL",
       "CLSK",
       "LABU",
-      "MARA",
-      "NUGT",
       "TSLL",
+      "NUGT",
       "COIN",
       "BITX",
       "NVDL",
       "HOOD",
-      "AFRM"
+      "AMD"
     ],
     "blacklisted": [],
     "performance": {
-      "RIOT": {
+      "MARA": {
         "atr_pct": 0.0721,
-        "avg_vol": 881790
+        "avg_vol": 1108080
+      },
+      "RIOT": {
+        "atr_pct": 0.0728,
+        "avg_vol": 853039
       },
       "SOXL": {
-        "atr_pct": 0.0895,
-        "avg_vol": 730051
+        "atr_pct": 0.0911,
+        "avg_vol": 741413
       },
       "CLSK": {
         "atr_pct": 0.0708,
-        "avg_vol": 699615
+        "avg_vol": 684871
       },
       "LABU": {
-        "atr_pct": 0.0832,
-        "avg_vol": 10292
-      },
-      "MARA": {
-        "atr_pct": 0.0696,
-        "avg_vol": 1105368
-      },
-      "NUGT": {
-        "atr_pct": 0.0562,
-        "avg_vol": 8764
+        "atr_pct": 0.0823,
+        "avg_vol": 9364
       },
       "TSLL": {
-        "atr_pct": 0.0553,
-        "avg_vol": 5330190
+        "atr_pct": 0.0551,
+        "avg_vol": 5181229
+      },
+      "NUGT": {
+        "atr_pct": 0.0509,
+        "avg_vol": 7418
       },
       "COIN": {
-        "atr_pct": 0.0523,
-        "avg_vol": 228937
+        "atr_pct": 0.0504,
+        "avg_vol": 218113
       },
       "BITX": {
-        "atr_pct": 0.0504,
-        "avg_vol": 328254
+        "atr_pct": 0.0467,
+        "avg_vol": 318237
       },
       "NVDL": {
-        "atr_pct": 0.0464,
-        "avg_vol": 164776
+        "atr_pct": 0.0459,
+        "avg_vol": 153159
       },
       "HOOD": {
-        "atr_pct": 0.0423,
-        "avg_vol": 536923
+        "atr_pct": 0.0411,
+        "avg_vol": 514179
       },
-      "AFRM": {
-        "atr_pct": 0.0397,
-        "avg_vol": 192829
+      "AMD": {
+        "atr_pct": 0.0385,
+        "avg_vol": 468558
       }
     }
   },
