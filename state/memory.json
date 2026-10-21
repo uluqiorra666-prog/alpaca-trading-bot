@@ -1,19 +1,19 @@
 {
   "version": 1,
-  "last_updated": "2026-10-20T23:34:44.904435+00:00",
+  "last_updated": "2026-10-21T17:51:31.202554+00:00",
   "account": {
     "equity_at_open": 99976.58
   },
   "session": {
-    "date": "2026-10-20",
-    "run_count_today": 3,
+    "date": "2026-10-21",
+    "run_count_today": 1,
     "gemini_failures_today": 2,
     "gemini_fallback_active": false,
     "consecutive_errors": 0,
     "trades_today": 0,
     "trading_paused_until": null,
-    "last_run": "2026-10-20T23:34:44.904420+00:00",
-    "watchlist_built_date": "2026-10-20"
+    "last_run": "2026-10-21T17:51:31.202534+00:00",
+    "watchlist_built_date": "2026-10-21"
   },
   "position": null,
   "daily_stats": {
@@ -78,6 +78,11 @@
         "date": "2026-10-19",
         "realized_pl": 0.0,
         "trades": 0
+      },
+      {
+        "date": "2026-10-20",
+        "realized_pl": 0.0,
+        "trades": 0
       }
     ]
   },
@@ -92,59 +97,59 @@
       "COIN",
       "TECL",
       "NVDL",
-      "NUGT",
       "FNGU",
+      "NUGT",
       "HOOD"
     ],
     "blacklisted": [],
     "performance": {
       "MARA": {
-        "atr_pct": 0.0892,
-        "avg_vol": 1301625
+        "atr_pct": 0.085,
+        "avg_vol": 1320230
       },
       "RIOT": {
-        "atr_pct": 0.0923,
-        "avg_vol": 896997
+        "atr_pct": 0.0871,
+        "avg_vol": 866559
       },
       "CLSK": {
-        "atr_pct": 0.0949,
-        "avg_vol": 833775
+        "atr_pct": 0.0899,
+        "avg_vol": 824806
       },
       "SOXL": {
-        "atr_pct": 0.1301,
-        "avg_vol": 809391
+        "atr_pct": 0.1215,
+        "avg_vol": 809397
       },
       "LABU": {
-        "atr_pct": 0.084,
-        "avg_vol": 8848
+        "atr_pct": 0.0802,
+        "avg_vol": 8401
       },
       "TSLL": {
-        "atr_pct": 0.0609,
-        "avg_vol": 5109141
+        "atr_pct": 0.0603,
+        "avg_vol": 4928456
       },
       "COIN": {
-        "atr_pct": 0.0601,
-        "avg_vol": 220209
+        "atr_pct": 0.0589,
+        "avg_vol": 225431
       },
       "TECL": {
-        "atr_pct": 0.0599,
-        "avg_vol": 8455
+        "atr_pct": 0.058,
+        "avg_vol": 7870
       },
       "NVDL": {
-        "atr_pct": 0.0552,
-        "avg_vol": 210084
-      },
-      "NUGT": {
-        "atr_pct": 0.0549,
-        "avg_vol": 6451
+        "atr_pct": 0.0537,
+        "avg_vol": 214446
       },
       "FNGU": {
-        "atr_pct": 0.0548,
-        "avg_vol": 176432
+        "atr_pct": 0.0537,
+        "avg_vol": 177636
+      },
+      "NUGT": {
+        "atr_pct": 0.0537,
+        "avg_vol": 6256
       },
       "HOOD": {
-        "atr_pct": 0.0531,
-        "avg_vol": 518605
+        "atr_pct": 0.0524,
+        "avg_vol": 522709
       }
     }
   },
