@@ -1,32 +1,23 @@
 {
   "version": 1,
-  "last_updated": "2026-10-28T22:50:51.367879+00:00",
+  "last_updated": "2026-10-29T18:48:19.220876+00:00",
   "account": {
-    "equity_at_open": 99976.58
+    "equity_at_open": 99418.28
   },
   "session": {
-    "date": "2026-10-28",
-    "run_count_today": 2,
-    "gemini_failures_today": 4,
-    "gemini_fallback_active": true,
+    "date": "2026-10-29",
+    "run_count_today": 1,
+    "gemini_failures_today": 2,
+    "gemini_fallback_active": false,
     "consecutive_errors": 0,
-    "trades_today": 1,
+    "trades_today": 0,
     "trading_paused_until": null,
-    "last_run": "2026-10-28T22:50:51.367854+00:00",
-    "watchlist_built_date": "2026-10-28"
+    "last_run": "2026-10-29T18:48:19.220859+00:00",
+    "watchlist_built_date": "2026-10-29"
   },
-  "position": {
-    "symbol": "RIOT",
-    "qty": 6953,
-    "entry_price": 14.08,
-    "entry_time": "2026-10-28T18:39:38.108518+00:00",
-    "highest_price_since_entry": 14.08,
-    "has_trailing_stop": true,
-    "unrealized_pl_pct": 0.0,
-    "tier": 1
-  },
+  "position": null,
   "daily_stats": {
-    "realized_pl": 0.0,
+    "realized_pl": -556.2400000000005,
     "history": [
       {
         "date": "2026-10-02",
@@ -117,6 +108,11 @@
         "date": "2026-10-27",
         "realized_pl": 0.0,
         "trades": 0
+      },
+      {
+        "date": "2026-10-28",
+        "realized_pl": 0.0,
+        "trades": 1
       }
     ]
   },
@@ -127,63 +123,63 @@
       "RIOT",
       "CLSK",
       "LABU",
-      "TSLL",
+      "FNGU",
       "NUGT",
       "TECL",
-      "COIN",
-      "FNGU",
+      "TSLL",
       "HOOD",
-      "NVDL"
+      "NVDL",
+      "COIN"
     ],
     "blacklisted": [],
     "performance": {
       "MARA": {
-        "atr_pct": 0.0819,
-        "avg_vol": 1245297
+        "atr_pct": 0.0833,
+        "avg_vol": 1225223
       },
       "SOXL": {
-        "atr_pct": 0.1133,
-        "avg_vol": 1044178
+        "atr_pct": 0.1218,
+        "avg_vol": 1062468
       },
       "RIOT": {
-        "atr_pct": 0.0824,
-        "avg_vol": 987554
+        "atr_pct": 0.0871,
+        "avg_vol": 1047791
       },
       "CLSK": {
-        "atr_pct": 0.0821,
-        "avg_vol": 867224
+        "atr_pct": 0.0869,
+        "avg_vol": 891116
       },
       "LABU": {
-        "atr_pct": 0.0697,
-        "avg_vol": 6397
-      },
-      "TSLL": {
-        "atr_pct": 0.0639,
-        "avg_vol": 4856508
-      },
-      "NUGT": {
-        "atr_pct": 0.0604,
-        "avg_vol": 6091
-      },
-      "TECL": {
-        "atr_pct": 0.0596,
-        "avg_vol": 9145
-      },
-      "COIN": {
-        "atr_pct": 0.0577,
-        "avg_vol": 209262
+        "atr_pct": 0.0686,
+        "avg_vol": 5467
       },
       "FNGU": {
-        "atr_pct": 0.0572,
-        "avg_vol": 173571
+        "atr_pct": 0.0657,
+        "avg_vol": 170686
+      },
+      "NUGT": {
+        "atr_pct": 0.0648,
+        "avg_vol": 5996
+      },
+      "TECL": {
+        "atr_pct": 0.0642,
+        "avg_vol": 8882
+      },
+      "TSLL": {
+        "atr_pct": 0.0617,
+        "avg_vol": 4813219
       },
       "HOOD": {
-        "atr_pct": 0.0566,
-        "avg_vol": 558676
+        "atr_pct": 0.0577,
+        "avg_vol": 577608
       },
       "NVDL": {
-        "atr_pct": 0.0546,
-        "avg_vol": 226206
+        "atr_pct": 0.0572,
+        "avg_vol": 229662
+      },
+      "COIN": {
+        "atr_pct": 0.0566,
+        "avg_vol": 205654
       }
     }
   },
@@ -248,6 +244,14 @@
       "price": 14.08,
       "qty": 6953,
       "note": "tier 1"
+    },
+    {
+      "time": "2026-10-29T18:47:38.521933+00:00",
+      "symbol": "RIOT",
+      "action": "SELL",
+      "price": 14.0,
+      "qty": 6953,
+      "note": "trailing stop / external close"
     }
   ]
 }
