@@ -1,32 +1,23 @@
 {
   "version": 1,
-  "last_updated": "2026-11-05T00:56:05.540445+00:00",
+  "last_updated": "2026-11-05T20:27:31.779476+00:00",
   "account": {
-    "equity_at_open": 99418.28
+    "equity_at_open": 99429.59
   },
   "session": {
-    "date": "2026-11-04",
-    "run_count_today": 2,
-    "gemini_failures_today": 4,
-    "gemini_fallback_active": true,
+    "date": "2026-11-05",
+    "run_count_today": 1,
+    "gemini_failures_today": 2,
+    "gemini_fallback_active": false,
     "consecutive_errors": 0,
-    "trades_today": 1,
+    "trades_today": 0,
     "trading_paused_until": null,
-    "last_run": "2026-11-05T00:56:05.540433+00:00",
-    "watchlist_built_date": "2026-11-04"
+    "last_run": "2026-11-05T20:27:31.779455+00:00",
+    "watchlist_built_date": "2026-11-05"
   },
-  "position": {
-    "symbol": "SOXL",
-    "qty": 1495,
-    "entry_price": 65.13,
-    "entry_time": "2026-11-04T20:15:31.575256+00:00",
-    "highest_price_since_entry": 65.13,
-    "has_trailing_stop": true,
-    "unrealized_pl_pct": 0.0,
-    "tier": 3
-  },
+  "position": null,
   "daily_stats": {
-    "realized_pl": 0.0,
+    "realized_pl": 13.330915000016361,
     "history": [
       {
         "date": "2026-10-02",
@@ -142,6 +133,11 @@
         "date": "2026-11-03",
         "realized_pl": 0.0,
         "trades": 0
+      },
+      {
+        "date": "2026-11-04",
+        "realized_pl": 0.0,
+        "trades": 1
       }
     ]
   },
@@ -150,65 +146,65 @@
       "TSLL",
       "SOXL",
       "RIOT",
+      "TQQQ",
       "MARA",
       "CLSK",
+      "AMD",
+      "COIN",
+      "NVDL",
       "FNGU",
       "TECL",
-      "LABU",
-      "NUGT",
-      "TQQQ",
-      "AMD",
-      "NVDL"
+      "NUGT"
     ],
     "blacklisted": [],
     "performance": {
       "TSLL": {
-        "atr_pct": 0.08,
-        "avg_vol": 4347982
+        "atr_pct": 0.116,
+        "avg_vol": 4106082
       },
       "SOXL": {
-        "atr_pct": 0.1961,
-        "avg_vol": 1589189
+        "atr_pct": 0.2996,
+        "avg_vol": 2226353
       },
       "RIOT": {
-        "atr_pct": 0.0845,
-        "avg_vol": 1456955
-      },
-      "MARA": {
-        "atr_pct": 0.0867,
-        "avg_vol": 1290859
-      },
-      "CLSK": {
-        "atr_pct": 0.1115,
-        "avg_vol": 957542
-      },
-      "FNGU": {
-        "atr_pct": 0.0739,
-        "avg_vol": 128308
-      },
-      "TECL": {
-        "atr_pct": 0.0854,
-        "avg_vol": 9385
-      },
-      "LABU": {
-        "atr_pct": 0.0731,
-        "avg_vol": 5139
-      },
-      "NUGT": {
-        "atr_pct": 0.069,
-        "avg_vol": 7729
+        "atr_pct": 0.0904,
+        "avg_vol": 1633201
       },
       "TQQQ": {
-        "atr_pct": 0.0678,
-        "avg_vol": 1313587
+        "atr_pct": 0.0899,
+        "avg_vol": 1519869
+      },
+      "MARA": {
+        "atr_pct": 0.1006,
+        "avg_vol": 1245215
+      },
+      "CLSK": {
+        "atr_pct": 0.1319,
+        "avg_vol": 1039313
       },
       "AMD": {
-        "atr_pct": 0.0665,
-        "avg_vol": 667508
+        "atr_pct": 0.0858,
+        "avg_vol": 746363
+      },
+      "COIN": {
+        "atr_pct": 0.0741,
+        "avg_vol": 300655
       },
       "NVDL": {
-        "atr_pct": 0.066,
-        "avg_vol": 212839
+        "atr_pct": 0.0933,
+        "avg_vol": 221530
+      },
+      "FNGU": {
+        "atr_pct": 0.095,
+        "avg_vol": 94592
+      },
+      "TECL": {
+        "atr_pct": 0.1187,
+        "avg_vol": 10351
+      },
+      "NUGT": {
+        "atr_pct": 0.0713,
+        "avg_vol": 7887
       }
     }
   },
@@ -289,6 +285,14 @@
       "price": 65.13,
       "qty": 1495,
       "note": "tier 3"
+    },
+    {
+      "time": "2026-11-05T20:27:17.347950+00:00",
+      "symbol": "SOXL",
+      "action": "SELL",
+      "price": 65.138917,
+      "qty": 1495,
+      "note": "trailing stop / external close"
     }
   ]
 }
