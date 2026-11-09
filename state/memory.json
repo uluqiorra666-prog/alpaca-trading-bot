@@ -1,19 +1,19 @@
 {
   "version": 1,
-  "last_updated": "2026-11-06T23:50:29.878511+00:00",
+  "last_updated": "2026-11-09T22:51:18.599287+00:00",
   "account": {
-    "equity_at_open": 99429.59
+    "equity_at_open": null
   },
   "session": {
-    "date": "2026-11-06",
-    "run_count_today": 2,
-    "gemini_failures_today": 3,
-    "gemini_fallback_active": true,
+    "date": "2026-11-09",
+    "run_count_today": 1,
+    "gemini_failures_today": 1,
+    "gemini_fallback_active": false,
     "consecutive_errors": 0,
     "trades_today": 0,
     "trading_paused_until": null,
-    "last_run": "2026-11-06T23:50:29.878500+00:00",
-    "watchlist_built_date": "2026-11-06"
+    "last_run": "2026-11-09T22:51:18.599276+00:00",
+    "watchlist_built_date": "2026-11-09"
   },
   "position": null,
   "daily_stats": {
@@ -143,6 +143,11 @@
         "date": "2026-11-05",
         "realized_pl": 13.330915000016361,
         "trades": 0
+      },
+      {
+        "date": "2026-11-06",
+        "realized_pl": 0.0,
+        "trades": 0
       }
     ]
   },
@@ -159,57 +164,57 @@
       "NVDL",
       "FNGU",
       "TECL",
-      "NUGT"
+      "LABU"
     ],
     "blacklisted": [],
     "performance": {
       "TSLL": {
-        "atr_pct": 0.1067,
-        "avg_vol": 4033530
+        "atr_pct": 0.1009,
+        "avg_vol": 3904346
       },
       "SOXL": {
-        "atr_pct": 0.2922,
-        "avg_vol": 2567364
+        "atr_pct": 0.2387,
+        "avg_vol": 2795548
       },
       "RIOT": {
-        "atr_pct": 0.0882,
-        "avg_vol": 1789587
+        "atr_pct": 0.0844,
+        "avg_vol": 1901221
       },
       "TQQQ": {
-        "atr_pct": 0.0867,
-        "avg_vol": 1559878
+        "atr_pct": 0.0825,
+        "avg_vol": 1624189
       },
       "MARA": {
-        "atr_pct": 0.0956,
-        "avg_vol": 1246483
+        "atr_pct": 0.0904,
+        "avg_vol": 1240078
       },
       "CLSK": {
-        "atr_pct": 0.1262,
-        "avg_vol": 1049261
+        "atr_pct": 0.1136,
+        "avg_vol": 1135789
       },
       "AMD": {
-        "atr_pct": 0.0851,
-        "avg_vol": 800150
+        "atr_pct": 0.0808,
+        "avg_vol": 913778
       },
       "COIN": {
-        "atr_pct": 0.0759,
-        "avg_vol": 304911
+        "atr_pct": 0.0735,
+        "avg_vol": 305570
       },
       "NVDL": {
-        "atr_pct": 0.0944,
-        "avg_vol": 211861
+        "atr_pct": 0.1124,
+        "avg_vol": 248830
       },
       "FNGU": {
-        "atr_pct": 0.0913,
-        "avg_vol": 91454
+        "atr_pct": 0.0871,
+        "avg_vol": 91303
       },
       "TECL": {
-        "atr_pct": 0.1177,
-        "avg_vol": 11602
+        "atr_pct": 0.1084,
+        "avg_vol": 13285
       },
-      "NUGT": {
-        "atr_pct": 0.0725,
-        "avg_vol": 8817
+      "LABU": {
+        "atr_pct": 0.0843,
+        "avg_vol": 4741
       }
     }
   },
