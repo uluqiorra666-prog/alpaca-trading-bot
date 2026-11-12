@@ -1,19 +1,19 @@
 {
   "version": 1,
-  "last_updated": "2026-11-12T01:50:43.394872+00:00",
+  "last_updated": "2026-11-12T20:37:49.597616+00:00",
   "account": {
     "equity_at_open": 99429.59
   },
   "session": {
-    "date": "2026-11-11",
-    "run_count_today": 2,
+    "date": "2026-11-12",
+    "run_count_today": 1,
     "gemini_failures_today": 2,
     "gemini_fallback_active": false,
     "consecutive_errors": 0,
     "trades_today": 0,
     "trading_paused_until": null,
-    "last_run": "2026-11-12T01:50:43.394862+00:00",
-    "watchlist_built_date": "2026-11-11"
+    "last_run": "2026-11-12T20:37:49.597597+00:00",
+    "watchlist_built_date": "2026-11-12"
   },
   "position": null,
   "daily_stats": {
@@ -158,6 +158,11 @@
         "date": "2026-11-10",
         "realized_pl": 0.0,
         "trades": 0
+      },
+      {
+        "date": "2026-11-11",
+        "realized_pl": 0.0,
+        "trades": 0
       }
     ]
   },
@@ -172,59 +177,59 @@
       "AMD",
       "NVDL",
       "UPST",
-      "FNGU",
-      "TECL",
-      "NUGT"
+      "COIN",
+      "BITX",
+      "FNGU"
     ],
     "blacklisted": [],
     "performance": {
       "TSLL": {
-        "atr_pct": 0.092,
-        "avg_vol": 3393676
+        "atr_pct": 0.0906,
+        "avg_vol": 3362940
       },
       "SOXL": {
-        "atr_pct": 0.1899,
-        "avg_vol": 3111980
+        "atr_pct": 0.2021,
+        "avg_vol": 3224739
       },
       "RIOT": {
-        "atr_pct": 0.083,
-        "avg_vol": 1930669
+        "atr_pct": 0.0886,
+        "avg_vol": 1999111
       },
       "TQQQ": {
-        "atr_pct": 0.0765,
-        "avg_vol": 1565581
+        "atr_pct": 0.0802,
+        "avg_vol": 1593454
       },
       "MARA": {
-        "atr_pct": 0.082,
-        "avg_vol": 1283054
+        "atr_pct": 0.088,
+        "avg_vol": 1326057
       },
       "CLSK": {
-        "atr_pct": 0.111,
-        "avg_vol": 1093982
+        "atr_pct": 0.116,
+        "avg_vol": 1124355
       },
       "AMD": {
-        "atr_pct": 0.076,
-        "avg_vol": 1012156
+        "atr_pct": 0.0763,
+        "avg_vol": 1105314
       },
       "NVDL": {
-        "atr_pct": 0.1169,
-        "avg_vol": 315090
+        "atr_pct": 0.1547,
+        "avg_vol": 359895
       },
       "UPST": {
-        "atr_pct": 0.0703,
-        "avg_vol": 312332
+        "atr_pct": 0.0786,
+        "avg_vol": 309535
+      },
+      "COIN": {
+        "atr_pct": 0.0732,
+        "avg_vol": 288006
+      },
+      "BITX": {
+        "atr_pct": 0.07,
+        "avg_vol": 284219
       },
       "FNGU": {
-        "atr_pct": 0.0798,
-        "avg_vol": 80810
-      },
-      "TECL": {
-        "atr_pct": 0.0984,
-        "avg_vol": 12022
-      },
-      "NUGT": {
-        "atr_pct": 0.077,
-        "avg_vol": 8141
+        "atr_pct": 0.083,
+        "avg_vol": 81257
       }
     }
   },
