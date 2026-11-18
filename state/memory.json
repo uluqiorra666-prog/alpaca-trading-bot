@@ -1,18 +1,18 @@
 {
   "version": 1,
-  "last_updated": "2026-11-17T21:29:16.114510+00:00",
+  "last_updated": "2026-11-18T03:04:28.309446+00:00",
   "account": {
     "equity_at_open": null
   },
   "session": {
     "date": "2026-11-17",
-    "run_count_today": 1,
+    "run_count_today": 2,
     "gemini_failures_today": 1,
     "gemini_fallback_active": false,
     "consecutive_errors": 0,
     "trades_today": 0,
     "trading_paused_until": null,
-    "last_run": "2026-11-17T21:29:16.114501+00:00",
+    "last_run": "2026-11-18T03:04:28.309433+00:00",
     "watchlist_built_date": "2026-11-17"
   },
   "position": null,
