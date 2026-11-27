@@ -1,29 +1,24 @@
 {
   "version": 1,
-  "last_updated": "2026-11-26T22:05:14.368275+00:00",
+  "last_updated": "2026-11-27T21:47:28.449729+00:00",
   "account": {
     "equity_at_open": null
   },
   "session": {
-    "date": "2026-11-26",
+    "date": "2026-11-27",
     "run_count_today": 1,
-    "gemini_failures_today": 1,
+    "gemini_failures_today": 0,
     "gemini_fallback_active": false,
     "consecutive_errors": 0,
     "trades_today": 0,
     "trading_paused_until": null,
-    "last_run": "2026-11-26T22:05:14.368270+00:00",
-    "watchlist_built_date": "2026-11-26"
+    "last_run": "2026-11-27T21:47:28.449716+00:00",
+    "watchlist_built_date": "2026-11-27"
   },
   "position": null,
   "daily_stats": {
     "realized_pl": 0.0,
     "history": [
-      {
-        "date": "2026-10-15",
-        "realized_pl": 0.0,
-        "trades": 0
-      },
       {
         "date": "2026-10-16",
         "realized_pl": 0.0,
@@ -168,73 +163,78 @@
         "date": "2026-11-25",
         "realized_pl": 0.0,
         "trades": 0
+      },
+      {
+        "date": "2026-11-26",
+        "realized_pl": 0.0,
+        "trades": 0
       }
     ]
   },
   "watchlist": {
     "symbols": [
+      "NVDA",
+      "BITO",
       "SOXL",
       "TSLL",
       "TQQQ",
       "RIOT",
-      "AMD",
       "MARA",
+      "AMD",
       "CLSK",
       "NVDL",
       "HOOD",
-      "BITX",
-      "COIN",
-      "UPST"
+      "MSTR"
     ],
     "blacklisted": [],
     "performance": {
+      "NVDA": {
+        "atr_pct": 0.1015,
+        "avg_vol": 15132286
+      },
+      "BITO": {
+        "atr_pct": 0.0725,
+        "avg_vol": 6542501
+      },
       "SOXL": {
-        "atr_pct": 0.3305,
-        "avg_vol": 4577479
+        "atr_pct": 0.283,
+        "avg_vol": 4631347
       },
       "TSLL": {
-        "atr_pct": 0.104,
-        "avg_vol": 3595608
+        "atr_pct": 0.0948,
+        "avg_vol": 3457611
       },
       "TQQQ": {
-        "atr_pct": 0.1175,
-        "avg_vol": 2312283
+        "atr_pct": 0.1089,
+        "avg_vol": 2256163
       },
       "RIOT": {
-        "atr_pct": 0.1006,
-        "avg_vol": 1727581
-      },
-      "AMD": {
-        "atr_pct": 0.1284,
-        "avg_vol": 1389922
+        "atr_pct": 0.0904,
+        "avg_vol": 1549327
       },
       "MARA": {
-        "atr_pct": 0.1313,
-        "avg_vol": 1362587
+        "atr_pct": 0.1239,
+        "avg_vol": 1344724
+      },
+      "AMD": {
+        "atr_pct": 0.118,
+        "avg_vol": 1327407
       },
       "CLSK": {
-        "atr_pct": 0.1368,
-        "avg_vol": 1185194
+        "atr_pct": 0.1379,
+        "avg_vol": 1141902
       },
       "NVDL": {
-        "atr_pct": 0.2406,
-        "avg_vol": 821120
+        "atr_pct": 0.2265,
+        "avg_vol": 845345
       },
       "HOOD": {
-        "atr_pct": 0.0739,
-        "avg_vol": 706006
+        "atr_pct": 0.0714,
+        "avg_vol": 699038
       },
-      "BITX": {
-        "atr_pct": 0.1041,
-        "avg_vol": 263430
-      },
-      "COIN": {
-        "atr_pct": 0.0725,
-        "avg_vol": 255969
-      },
-      "UPST": {
-        "atr_pct": 0.0725,
-        "avg_vol": 222607
+      "MSTR": {
+        "atr_pct": 0.0985,
+        "avg_vol": 639049
       }
     }
   },
@@ -282,6 +282,11 @@
       },
       {
         "time": "2026-11-24T00:33:31.593256+00:00",
+        "label": "watchlist_add",
+        "reply": "NVDA, TSLA, MSTR"
+      },
+      {
+        "time": "2026-11-27T21:47:28.091799+00:00",
         "label": "watchlist_add",
         "reply": "NVDA, TSLA, MSTR"
       }
